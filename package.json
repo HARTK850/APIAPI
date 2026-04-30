@@ -1,15 +1,13 @@
 {
-  "name": "yemot-gemini-ivr",
-  "version": "1.0.0",
-  "description": "Yemot HaMashiach IVR integrated with Gemini AI and Redis",
+  "name": "yemot-gemini-ivr-edge",
+  "version": "46.0.0",
+  "description": "Enterprise Yemot HaMashiach IVR with Gemini AI, Edge Runtime, Function Calling & Smart Redis",
   "main": "api/index.js",
   "type": "module",
   "scripts": {
     "start": "node api/index.js"
   },
-  "dependencies": {
-    "ioredis": "^5.3.2"
-  },
+  "dependencies": {},
   "engines": {
     "node": ">=18.x"
   }
